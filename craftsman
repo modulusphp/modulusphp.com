@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * Modulus - A cool API Framework for PHP
+ *
+ * @package  modulusphp
+ * @author   Donald Pakkies <donaldpakkies@gmail.com>
+ */
+
+define('MODULUS_START', microtime(true));
+
+use App\Console\Kernel;
+use Modulus\Framework\Upstart;
+
+require __DIR__. '/vendor/autoload.php';
+
+(new Upstart)->boot(true);
+
+$application = Kernel::console();
+$application->run();

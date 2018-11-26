@@ -1,0 +1,11 @@
+/dev
+/node_modules
+/public/storage
+/modulusphp
+/vendor
+/storage/framework/views
+/.idea
+/.vscode
+npm-debug.log
+yarn-error.log
+.env
