@@ -15,7 +15,7 @@
           <div class="col-md-6 text-md-left text-center align-self-center my-5">
             <h1 class="">{{ fn('name') }}</h1>
             <p class="lead">{{ fn('desc') }}</p>
-            <a class="btn btn-light" href="documentation">Documentation</a>
+            <a class="btn btn-light" href="https://github.com/modulusphp">Source Code</a>
             <a class="btn btn-light" href="/">Home</a>
           </div>
           <div class="col-md-6">
@@ -27,12 +27,12 @@
               </div>
               <div class="__content">
                 <pre><code class="language-php __php">class ErrorController extends Controller
+{
+  public function handle(Request $request)
   {
-    public function handle(Request $request)
-    {
-      return view('errors.{{ $statusCode }}');
-    }
+    return view('errors.{{ $statusCode }}');
   }
+}
 
 
   </code></pre> </div>
