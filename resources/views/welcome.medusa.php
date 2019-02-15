@@ -14,7 +14,7 @@
           <div class="col-md-6 text-md-left text-center align-self-center my-5">
             <h1 class="">{{ fn('name') }}</h1>
             <p class="lead">{{ fn('desc') }}</p>
-            <a class="btn btn-light" href="documentation">Documentation</a>
+            <a class="btn btn-light" href="/docs">Documentation</a>
             <p class="">version 1.9.*</p>
           </div>
           <div class="col-md-6">
