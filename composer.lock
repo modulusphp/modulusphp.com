@@ -1486,16 +1486,16 @@
         },
         {
             "name": "modulusphp/console",
-            "version": "1.9.6.2",
+            "version": "1.9.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/modulusphp/console.git",
-                "reference": "59c48cc84e10806cf076c3ff6b48c0136343c87e"
+                "reference": "600928d557f17f3a8fad60608c2ee023dcca31ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/modulusphp/console/zipball/59c48cc84e10806cf076c3ff6b48c0136343c87e",
-                "reference": "59c48cc84e10806cf076c3ff6b48c0136343c87e",
+                "url": "https://api.github.com/repos/modulusphp/console/zipball/600928d557f17f3a8fad60608c2ee023dcca31ce",
+                "reference": "600928d557f17f3a8fad60608c2ee023dcca31ce",
                 "shasum": ""
             },
             "require": {
@@ -1522,7 +1522,7 @@
                 }
             ],
             "description": "Modulus Commands",
-            "time": "2018-12-12T09:55:02+00:00"
+            "time": "2019-02-15T23:08:07+00:00"
         },
         {
             "name": "modulusphp/directives",
