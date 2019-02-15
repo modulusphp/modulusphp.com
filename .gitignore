@@ -1,4 +1,5 @@
 /dev
+/resources/docs
 /node_modules
 /public/storage
 /modulusphp
