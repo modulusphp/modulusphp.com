@@ -12,8 +12,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-md-left text-center align-self-center my-5">
-            <h1 class="">{{ fn('name') }}</h1>
-            <p class="lead">{{ fn('desc') }}</p>
+            <h1 class="">{{ ___('name') }}</h1>
+            <p class="lead">{{ ___('desc') }}</p>
             <a class="btn btn-light" href="/docs">Documentation</a>
             <p class="">version 1.9.*</p>
           </div>
