@@ -15,10 +15,6 @@ return [
 
   'name' => env('APP_NAME', 'Modulus'),
 
-  'description' => env('APP_DESC', ''),
-
-  'version' => env('APP_VERSION', '2.0'),
-
   /*
   |--------------------------------------------------------------------------
   | Application Root
@@ -92,8 +88,10 @@ return [
   | Please do this before deploying an application!
   |
   */
+
   'key' => env('APP_KEY'),
 
+  'cipher' => 'AES-256-CBC',
 
   /*
   |--------------------------------------------------------------------------
@@ -139,6 +137,7 @@ return [
   | These plugins are not enabled by default for security reasons.
   |
   */
+
   'plugins' => [
     //
   ],
@@ -156,15 +155,18 @@ return [
 
   'aliases' => [
     'Auth' => Modulus\Security\Auth::class,
-    'DB' => Illuminate\Database\Capsule\Manager::class,
+    'DB' => Modulus\Hibernate\Capsule::class,
+    'Carbon' => Carbon\Carbon::class,
     'Cache' => Modulus\Hibernate\Cache::class,
-    'Cookie' => \Modulus\Request\Cookies::class,
+    'Config' => Modulus\Support\Config::class,
+    'Cookie' => Modulus\Request\Cookies::class,
     'Events' => Modulus\Utility\Events::class,
-    'File' => \Modulus\Support\File::class,
+    'File' => Modulus\Support\File::class,
     'Get' => Modulus\Http\Get::class,
     'Hash' => Modulus\Security\Hash::class,
+    'Hashids' => Modulus\Framework\Hashids\Hashids::class,
     'Log' => AtlantisPHP\Telemonlog\Output::class,
-    'Mail' => Modulus\Utility\Mail::class,
+    'Mail' => Modulus\Hibernate\Mail::class,
     'Session' => Modulus\Http\Session::class,
     'Status' => Modulus\Http\Status::class,
     'Storage' => Modulus\Filesystem\Storage::class,
