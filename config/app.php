@@ -15,6 +15,10 @@ return [
 
   'name' => env('APP_NAME', 'Modulus'),
 
+  'description' => env('APP_DESC', ''),
+
+  'version' => env('APP_VERSION', '2.0'),
+
   /*
   |--------------------------------------------------------------------------
   | Application Root
