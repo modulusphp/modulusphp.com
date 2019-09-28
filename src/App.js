@@ -65,11 +65,11 @@ function App() {
               <h4> <b>Craftsman</b></h4>
               <p>A command-line interface that makes building Modulus applications easy.</p>
             </div>
-            <div className="col-md-4 col-6 p-4"> <i className="d-block fa fa-stop-circle-o fa-3x mb-2 text-muted"></i>
+            <div className="col-md-4 p-4"> <i className="d-block fa fa-stop-circle-o fa-3x mb-2 text-muted"></i>
               <h4> <b>Shell</b></h4>
               <p>A runtime developer console, interactive debugger and REPL for Modulus.</p>
             </div>
-            <div className="col-md-4 col-6 p-4"> <i className="d-block fa fa-circle-o fa-3x mb-2 text-muted"></i>
+            <div className="col-md-4 p-4"> <i className="d-block fa fa-circle-o fa-3x mb-2 text-muted"></i>
               <h4><b>Laravel&nbsp;</b><b>Mix</b></h4>
               <p>An elegant wrapper around Webpack for the 80% use case.</p>
             </div>
